@@ -1,0 +1,2 @@
+Sitemap: https://www.igprog.hr/sitemap.xml
+User-agent: *
