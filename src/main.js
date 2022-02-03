@@ -22,6 +22,9 @@ Vue.use(resource);
 import CookieLaw from 'vue-cookie-law';
 Vue.use(CookieLaw);
 
+import VueMeta from 'vue-meta';
+Vue.use(VueMeta);
+
 import VueI18n from 'vue-i18n'
 import messages from './lang'
 Vue.use(VueI18n)

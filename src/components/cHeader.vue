@@ -2,11 +2,11 @@
   <div>
     <header class="banner">
       <div class="container text-center" style="padding: 120px 0 60px 0">
-        <h1 class="font-weight-bold text-white display-3">
+        <h1 class="font-weight-bold text-main font-beauty display-4">
           {{ $t('appName') }}
         </h1>
-        <div class="header-content">
-          <h2 class="font-weight-bold text-white display-5">
+        <div>
+          <h2 class="text-white display-5 font-beauty">
             {{ $t('appDesc') }}
           </h2>
         </div>

@@ -14,22 +14,16 @@
 </template>
 
 <script>
-
 import cBooking from '../components/cBooking.vue';
-
 export default {
+  metaInfo () {
+    return {
+      title: this.$t('appName'),
+      titleTemplate: '%s | ' + this.$t('booking'),
+    }
+  },
   components: {
     cBooking
-  },
-  metaInfo: {
-    titleTemplate: "%s | Rezervacija",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Apartment Verano - Rezervacija",
-      },
-    ],
   },
 };
 </script>

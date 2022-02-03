@@ -18,20 +18,13 @@
 <script>
 import cContact from "../components/cContact.vue";
 import cContactForm from "../components/cContactForm.vue";
-import { mixin } from "../mixins/mixin.js";
-
 export default {
-  metaInfo: {
-    titleTemplate: "%s | Kontakt",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Za sva pitanja kontaktirajte nas putem telefona ili emaila ili ispunite formu za kontakt.",
-      },
-    ],
+  metaInfo () {
+    return {
+      title: this.$t('appName'),
+      titleTemplate: '%s | ' + this.$t('contact'),
+    }
   },
-  mixins: [mixin],
   components: {
     cContact,
     cContactForm,

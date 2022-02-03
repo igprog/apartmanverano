@@ -13,7 +13,7 @@
               />
               </div>
               <div class="pt-3">
-                <a href="https://www.booking.com/hotel/hr/apartment-verano.hr.html" title="booking.com" target="_blank">
+                <a href="https://www.booking.com/hotel/hr/apartment-verano.hr.html" title="booking.com" target="_blank" rel="noopener">
                 <img
                 src="../assets/img/award.png"
                 alt="award"

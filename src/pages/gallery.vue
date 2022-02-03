@@ -16,19 +16,13 @@
 </template>
 
 <script>
-
 import VueGallerySlideshow from 'vue-gallery-slideshow'
-
 export default {
-  metaInfo: {
-    titleTemplate: "%s | Galerija",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Apartment Verano - Galerija",
-      },
-    ],
+  metaInfo () {
+    return {
+      title: this.$t('appName'),
+      titleTemplate: '%s | ' + this.$t('gallery'),
+    }
   },
   components: {
     VueGallerySlideshow
