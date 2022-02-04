@@ -79,7 +79,7 @@ export default {
     },
     closeNav() {
       document.getElementById("mySidenav").style.width = "0";
-      window.scrollTo({ top: 340, behavior: 'smooth' });
+      window.scrollTo({ top: 160, behavior: 'smooth' });
     },
   },
 };

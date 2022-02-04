@@ -15,7 +15,7 @@
     "location": "Lokacija",
     "contact": "Kontakt",
     "mainDesc": "Apartman Verano nalazi se u Njivicama te sadrži vrt i terasu. Ovaj klimatizirani objekt udaljen je 1,1 km od nudističke plaže Njivice Kijac te ima besplatan WiFi i privatno parkiralište. Apartman sadrži 2 spavaće sobe, TV ravnog ekrana sa satelitskim programima, opremljenu kuhinju s hladnjakom i perilicom posuđa, perilicu rublja i 1 kupaonicu s tušem. Najbliža zračna luka je Zračna luka Rijeka, koja je udaljena 8 km od objekta. Prijevoz iz/do zračne luke dostupan je uz nadoplatu.",
-    "kichen": "Kuhinja",
+    "kitchen": "Kuhinja",
     "wifi": "Wi-Fi",
     "freeParkingOnPremises": "Besplatan parking u sklopu smještaja",
     "petsAllowed": "Kućni ljubimci dobrodošli",
@@ -35,5 +35,7 @@
     "booking": "Rezervacija",
     "sendRequest": "Pošaljite upit",
     "bookingDesc": "Molimo, pošaljite upit preko kontakt forme i odgovorit ćemo u najskorijem mogućem roku",
-    "pleaseWait": "Molimo pričekajte"
+    "pleaseWait": "Molimo pričekajte",
+    "arrival": "Dolazak",
+    "departure": "Odlazak"
 }

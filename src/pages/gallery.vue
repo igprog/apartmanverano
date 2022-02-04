@@ -40,7 +40,7 @@ export default {
   computed: {
     images : function() {
       const x = [];
-      for (let i = 1; i <= 24; i++) {
+      for (let i = 1; i <= 20; i++) {
         x.push(require(`@/assets/img/gallery/ap${i}.jpg`))
       }
       return x;

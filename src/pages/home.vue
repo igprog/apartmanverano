@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       offers: [
-        { icon: "utensils", title: "kichen" },
+        { icon: "utensils", title: "kitchen" },
         { icon: "wifi", title: "wifi" },
         { icon: "car", title: "freeParkingOnPremises" },
         { icon: "dog", title: "petsAllowed" },

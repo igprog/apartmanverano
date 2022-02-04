@@ -10,9 +10,7 @@
 </template>
 
 <script>
-
 import { locales } from '../config/i18n'
-
 export default {
   props: {
     id: String

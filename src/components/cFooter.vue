@@ -22,12 +22,17 @@
               </a>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5 pt-2">
+              <h2>{{$t('location')}}</h2>
+              <c-map />
+            </div>
+            <div class="col-md-2 pt-2">
+              <h2>Quick Links</h2>
+              <c-quick-links />
+            </div>
+            <div class="col-md-3 pt-2">
               <h2>{{$t('contact')}}</h2>
               <c-contact />
-            </div>
-            <div class="col-md-6">
-              <c-map />
             </div>
           </div>
         </div>
@@ -53,11 +58,13 @@
 <script>
 import cContact from "./cContact.vue";
 import cMap from "./cMap.vue";
+import cQuickLinks from "./cQuickLinks.vue";
 
 export default {
   components: {
     cContact,
     cMap,
+    cQuickLinks,
   },
   data() {
     return {

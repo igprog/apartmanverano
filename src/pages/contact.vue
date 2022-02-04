@@ -4,11 +4,11 @@
       <h2>{{ $t('contact') }}</h2>
       <hr>
       <div class="row mt-5">
-        <div class="col-lg-5">
+        <div class="col-lg-5 pb-5">
           <c-contact :showIcon="true" />
         </div>
         <div class="col-lg-7">
-          <c-contact-form />
+          <c-map />
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
 
 <script>
 import cContact from "../components/cContact.vue";
-import cContactForm from "../components/cContactForm.vue";
+import cMap from "../components/cMap.vue";
 export default {
   metaInfo () {
     return {
@@ -27,7 +27,7 @@ export default {
   },
   components: {
     cContact,
-    cContactForm,
+    cMap,
   },
 };
 </script>

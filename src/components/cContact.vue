@@ -1,10 +1,26 @@
 <template>
   <div>
-    <label class="text-uppercase">{{ info.company }}</label>
-    <p><icon v-if="showIcon" name="home" /><span class="pl-2">{{ `${info.address}, ${info.postalCode} ${info.city}, ${$t(info.country)}` }}</span></p>
-    <p><icon v-if="showIcon" name="phone" /><span class="pl-2">{{ info.phone }}</span></p>
-    <p><icon v-if="showIcon" name="envelope" /><span class="pl-2">{{ info.email }}</span></p>
-    <p><icon v-if="showIcon" name="globe" /><span class="pl-2">www.{{ info.appDomain }}</span></p>
+    <label v-if="info.company" class="text-uppercase">{{ info.company }}</label>
+    <div><icon v-if="showIcon" name="home" scale=2 class="text-main" />
+      <div class="pb-1">
+        <span class="p-2">{{ info.address }}</span>
+      </div>
+      <div class="pb-1">
+        <span class="p-2">{{ `${info.postalCode} ${info.city}` }}</span>
+      </div>
+      <div class="pb-1">
+        <span class="p-2">{{ $t(info.country) }}</span>
+      </div>
+    </div>
+    <div class="pt-4 pb-1">
+      <icon v-if="showIcon" name="phone" scale=2 class="text-main" /><span class="p-2">{{ info.phone }}</span>
+    </div>
+    <div class="pb-1">
+      <icon v-if="showIcon" name="envelope" scale=2 class="text-main" /><span class="p-2">{{ info.email }}</span>
+    </div>
+    <div class="pb-1">
+      <icon v-if="showIcon" name="globe" scale=2 class="text-main" /><span class="p-2">www.{{ info.appDomain }}</span>
+    </div>
   </div>
 </template>
 

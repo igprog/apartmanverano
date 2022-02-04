@@ -15,7 +15,7 @@
     "location": "Lage",
     "contact": "Kontakt",
     "mainDesc": "Das Apartment Verano erwartet Sie mit einem Garten und einer Terrasse in Njivice, 500 m vom Dog Beach Kijac und 1,1 km vom FKK Njivice Kijac entfernt. Die klimatisierte Unterkunft liegt 400 m vom Strand Kijac entfernt. Sie profitieren von Privatparkplätzen an der Unterkunft und kostenfreiem WLAN. Das Apartment verfügt über 2 Schlafzimmer, 1 Bad, Bettwäsche, Handtücher, einen Flachbild-Sat-TV, einen Essbereich, eine voll ausgestattete Küche und eine Terrasse mit Gartenblick. Der nächstgelegene Flughafen ist der 14 km vom Apartment entfernte Flughafen Rijeka. Die Unterkunft bietet einen kostenpflichtigen Flughafentransfer.",
-    "kichen": "Küche",
+    "kitchen": "Küche",
     "wifi": "WLAN",
     "freeParkingOnPremises": "Kostenloser Parkplatz auf dem Grundstück",
     "petsAllowed": "Haustiere erlaubt",
@@ -35,6 +35,8 @@
     "booking": "Buchung",
     "sendRequest": "Anfrage senden",
     "bookingDesc": "Senden Sie eine Anfrage und wir werden bald antworten",
-    "pleaseWait": "Warten Sie mal"
+    "pleaseWait": "Warten Sie mal",
+    "arrival": "Ankunft",
+    "departure": "Abfahrt"
 
 }

@@ -1,5 +1,5 @@
 <template>
-    <div v-if="info.googleMap" style="height: 300px" class="pt-4">
+    <div v-if="info.googleMap" style="height: 300px" >
         <iframe :src="info.googleMap" style="border: 0; width: 100%; height: 95%" allowfullscreen="" loading="lazy" title="googleMap"></iframe>
     </div>
 </template>
