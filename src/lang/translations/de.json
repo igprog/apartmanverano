@@ -20,7 +20,7 @@
     "freeParkingOnPremises": "Kostenloser Parkplatz auf dem Grundstück",
     "petsAllowed": "Haustiere erlaubt",
     "tvWithStandardCable": "Fernseher mit Normaler Kabelanschluss",
-    "eVCharger": "Ladestation für Elektrofahrzeuge",
+    "eVCharger": "Ladestation für Elektrofahrzeuge - Haussteckdose",
     "washer": "Waschmaschine",
     "airConditioning": "Klimaanlage",
     "whatOurPlaceOffers": "Das bietet dir diese Unterkunft",
@@ -37,6 +37,7 @@
     "bookingDesc": "Senden Sie eine Anfrage und wir werden bald antworten",
     "pleaseWait": "Warten Sie mal",
     "arrival": "Ankunft",
-    "departure": "Abfahrt"
+    "departure": "Abfahrt",
+    "phone": "Telefon"
 
 }

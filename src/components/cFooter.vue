@@ -21,6 +21,12 @@
               />
               </a>
               </div>
+              <div class="bg-danger mt-3 p-2">
+                <a href="https://hr.airbnb.com/rooms/13724758?guests=1&adults=4&location=Njivice%2C%20Primorje-Gorski%20Kotar%20County%20%C5%BEupanija%2C%20Hrvatska&federated_search_id=f565ebfb-4c74-41ea-851f-371a3af1e5f8&source_impression_id=p3_1643974203_etkpoWL%2B7Ds9Vxlp">
+                  <icon name="brands/airbnb" scale=3 />  
+                    <span class="lead font-weight-bold">airbnb</span>
+                  </a>
+                </div>
             </div>
             <div class="col-md-5 pt-2">
               <h2>{{$t('location')}}</h2>
@@ -32,7 +38,7 @@
             </div>
             <div class="col-md-3 pt-2">
               <h2>{{$t('contact')}}</h2>
-              <c-contact />
+              <c-contact aColor="#fff"  />
             </div>
           </div>
         </div>

@@ -1,7 +1,8 @@
 <template>
   <div>
     <label v-if="info.company" class="text-uppercase">{{ info.company }}</label>
-    <div><icon v-if="showIcon" name="home" scale=2 class="text-main" />
+    <div>
+      <icon v-if="showIcon" name="home" scale=2 class="text-main" />
       <div class="pb-1">
         <span class="p-2">{{ info.address }}</span>
       </div>
@@ -11,15 +12,30 @@
       <div class="pb-1">
         <span class="p-2">{{ $t(info.country) }}</span>
       </div>
-    </div>
-    <div class="pt-4 pb-1">
-      <icon v-if="showIcon" name="phone" scale=2 class="text-main" /><span class="p-2">{{ info.phone }}</span>
+      <hr class="bg-light mr-5">
     </div>
     <div class="pb-1">
-      <icon v-if="showIcon" name="envelope" scale=2 class="text-main" /><span class="p-2">{{ info.email }}</span>
+      <a :href="`tel:+${info.phone}`" :title="$t('phone')" :style="`color:${aColor}`">
+        <icon v-if="showIcon" name="phone" scale=2 class="text-main" /><span class="p-2">+{{ info.phoneShort }}</span>
+      </a>
     </div>
     <div class="pb-1">
-      <icon v-if="showIcon" name="globe" scale=2 class="text-main" /><span class="p-2">www.{{ info.appDomain }}</span>
+      <a :href="`viber://chat?number=%2B${info.phone}`" title="Viber" class="shadow badge badge-primary badge-pill m-1 p-2">
+      <icon name="brands/viber" scale=2 /><span class="p-2">Viber</span>
+      </a>
+      <a :href="`https://api.whatsapp.com/send?phone=${info.phone}`" title="WhatsApp" class="shadow badge badge-success badge-pill m-1 p-2">
+      <icon name="brands/whatsapp" scale=2 /><span class="p-2">WhatsApp</span>
+      </a>
+    </div>
+    <div class="pb-1">
+      <a :href="`mailto:${info.email}`" :title="$t('email')" :style="`color:${aColor}`">
+        <icon v-if="showIcon" name="envelope" scale=2 class="text-main" /><span class="p-2">{{ info.email }}</span>
+      </a>
+    </div>
+    <div class="pb-1">
+      <a :href="`https://www.${info.appDomain}`" title="web" :style="`color:${aColor}`">
+        <icon v-if="showIcon" name="globe" scale=2 class="text-main" /><span class="p-2">www.{{ info.appDomain }}</span>
+      </a>
     </div>
   </div>
 </template>
@@ -28,7 +44,8 @@
 import { info } from "../config/info";
 export default {
   props: {
-    showIcon: Boolean
+    showIcon: Boolean,
+    aColor: String
   },
   data() {
     return {

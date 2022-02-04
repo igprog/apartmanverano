@@ -1,2 +1,2 @@
-Sitemap: https://www.igprog.hr/sitemap.xml
+Sitemap: https://www.apartmentverano.com/sitemap.xml
 User-agent: *

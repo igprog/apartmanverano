@@ -20,7 +20,7 @@
     "freeParkingOnPremises": "Free parking on premises",
     "petsAllowed": "Pets allowed",
     "tvWithStandardCable": "TV with standard cable",
-    "eVCharger": "EV charger",
+    "eVCharger": "EV charger - house socket",
     "washer": "Washer",
     "airConditioning": "Air conditioning",
     "whatOurPlaceOffers": "What our place offers",
@@ -37,5 +37,6 @@
     "bookingDesc": "Send us an inquiry and we'll reply as soon as possible",
     "pleaseWait": "Please wait",
     "arrival": "Arrival",
-    "departure": "Departure"
+    "departure": "Departure",
+    "phone": "Phone"
 }

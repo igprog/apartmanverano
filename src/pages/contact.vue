@@ -5,7 +5,7 @@
       <hr>
       <div class="row mt-5">
         <div class="col-lg-5 pb-5">
-          <c-contact :showIcon="true" />
+          <c-contact :showIcon="true" aColor="#000" />
         </div>
         <div class="col-lg-7">
           <c-map />
