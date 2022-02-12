@@ -32,7 +32,7 @@
 export default {
   metaInfo () {
     return {
-      title: this.$t('appName'),
+      title: this.$t('appName') + ', ' + this.$t('appDesc'),
       titleTemplate: '%s | ' + this.$t('homePage'),
     }
   },

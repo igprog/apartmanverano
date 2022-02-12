@@ -27,8 +27,8 @@
     </nav>
     <div id="mySidenav" class="sidenav text-uppercase">
       <div class="pt-4">
-        <a href="javascript:void(0)" title="Izbornik" class="font-weight-bold text-light" @click="closeNav()">Menu</a>
-        <a href="javascript:void(0)" class="closebtn" @click="closeNav()" title="Zatvori" ><strong>&times;</strong></a>
+        <a href="javascript:void(0)" :title="$t('menu')" class="font-weight-bold text-light" @click="closeNav()">{{ $t('menu') }}</a>
+        <a href="javascript:void(0)" class="closebtn" @click="closeNav()" :title="$t('close')" ><strong>&times;</strong></a>
         <hr class="m-0 mx-4 mb-2 bg-light" />
       </div>
       <div v-for="(x, idx) in menu_" :key="idx" @click="closeNav()">

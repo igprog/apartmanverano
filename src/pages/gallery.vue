@@ -20,7 +20,7 @@ import VueGallerySlideshow from 'vue-gallery-slideshow'
 export default {
   metaInfo () {
     return {
-      title: this.$t('appName'),
+      title: this.$t('appName') + ', ' + this.$t('appDesc'),
       titleTemplate: '%s | ' + this.$t('gallery'),
     }
   },
